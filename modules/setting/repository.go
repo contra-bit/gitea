@@ -168,7 +168,7 @@ var (
 			LineWrapExtensions   []string
 			PreviewableFileModes []string
 		}{
-			LineWrapExtensions:   strings.Split(".txt,.md,.markdown,.mdown,.mkd,", ","),
+			LineWrapExtensions:   strings.Split(".txt,.md,.markdown,.mdown,.mkd,.livemd,", ","),
 			PreviewableFileModes: []string{"markdown"},
 		},
 
